@@ -13,9 +13,5 @@ struct hello_worldApp: App {
         WindowGroup {
             ContentView()
         }
-
-        ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
-        }
     }
 }
